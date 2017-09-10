@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "UIView+WrongPwdShake.h"
+#import "UIView+WrongShake.h"
 
 @interface ViewController ()
 @property (weak, nonatomic) IBOutlet UITextField *pwdField;

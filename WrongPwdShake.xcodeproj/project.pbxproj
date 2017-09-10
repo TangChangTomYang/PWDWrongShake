@@ -115,7 +115,8 @@
 				TargetAttributes = {
 					2FB494501F64D1F50023A74C = {
 						CreatedOnToolsVersion = 8.3.2;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = UM24Q5JH6X;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -225,7 +226,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +268,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -278,10 +279,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
 				INFOPLIST_FILE = WrongPwdShake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yr.WrongPwdShake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ae125f72-2c7b-4edb-b37f-f46858689dc4";
+				PROVISIONING_PROFILE_SPECIFIER = LettinDev_0825;
 			};
 			name = Debug;
 		};
@@ -289,10 +293,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = UM24Q5JH6X;
 				INFOPLIST_FILE = WrongPwdShake/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = yr.WrongPwdShake;
+				PRODUCT_BUNDLE_IDENTIFIER = com.360gobuylight.LETTIN;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5f36bf7e-fc14-4fc4-bde8-d3ec18f33cd1";
+				PROVISIONING_PROFILE_SPECIFIER = LettinHoc_0825;
 			};
 			name = Release;
 		};
@@ -315,6 +323,7 @@
 				2FB4946A1F64D1F50023A74C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
